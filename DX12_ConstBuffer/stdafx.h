@@ -11,7 +11,7 @@
 #include <DirectXMath.h>
 #include "d3dx12.h"
 
-//Releaseºê
+//Releaseå®
 #define SAFE_RELEASE(p) {if(p) {(p)->Release(); (p)=0; }}
 
 // Handle to the window
@@ -46,8 +46,8 @@ LRESULT CALLBACK WndProc(HWND hWnd,
     WPARAM wParam,
     LPARAM lParam);
 
-//------------DX ¶¨Òå Start----------------
-//3»º³å
+//------------DX å®šä¹‰ Start----------------
+//3ç¼“å†²
 const int frameBufferCount = 3;
 
 ID3D12Device* device;
@@ -106,4 +106,4 @@ ID3D12Resource* depthStencilBuffer;
 
 ID3D12DescriptorHeap* depthStencilDescHeap;
 
-//---------------DX ¶¨Òå End-------------------------
+//---------------DX å®šä¹‰ End-------------------------
